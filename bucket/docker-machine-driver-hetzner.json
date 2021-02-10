@@ -1,34 +1,32 @@
 {
-  "homepage": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner",
-  "description": "This docker-machine library adds support for creating Docker machines hosted on Hetzner Cloud.",
-  "version": "2.1.0",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/2.1.0/docker-machine-driver-hetzner_2.1.0_windows_amd64.tar.gz",
-      "hash": "BACB9AD5358EB8427496A19459DA7C62DE8ECA3957AFBE810AD3D83FB151C760"
-    },
-    "32bit": {
-      "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/2.1.0/docker-machine-driver-hetzner_2.1.0_windows_386.tar.gz",
-      "hash": "CD937035D9C6B84F2F2F852A194AC6775FAADAFFD1A3CC73ECD0179D55BD6280"
-    }
-  },
-  "bin": [
-    "docker-machine-driver-hetzner.exe"
-  ],
-  "checkver": {
-    "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/latest",
-    "re": "\\/releases\\/tag\\/([\\d.]+)"
-  },
-  "autoupdate": {
+    "homepage": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner",
+    "description": "This docker-machine library adds support for creating Docker machines hosted on Hetzner Cloud.",
+    "version": "3.2.0",
+    "license": "MIT",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/$version/docker-machine-driver-hetzner_$version_windows_amd64.tar.gz"
-      },
-      "32bit": {
-        "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/$version/docker-machine-driver-hetzner_$version_windows_386.tar.gz"
-      }
-    }
-  },
-  "depends": "docker-machine"
+        "64bit": {
+            "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/3.2.0/docker-machine-driver-hetzner_3.2.0_windows_amd64.tar.gz",
+            "hash": "56acf2b05e3a483465620489a5e49fb8e90d17ec7b6bfb54ea4157ee7e1fc26c"
+        },
+        "32bit": {
+            "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/3.2.0/docker-machine-driver-hetzner_3.2.0_windows_386.tar.gz",
+            "hash": "588004ed55452bd2af1b700ea8d65af6b15cd7ab98fdf7b77476db00e89f9c77"
+        }
+    },
+    "bin": "docker-machine-driver-hetzner.exe",
+    "checkver": {
+        "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/latest",
+        "re": "\\/releases\\/tag\\/([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/$version/docker-machine-driver-hetzner_$version_windows_amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/$version/docker-machine-driver-hetzner_$version_windows_386.tar.gz"
+            }
+        }
+    },
+    "depends": "docker-machine"
 }
