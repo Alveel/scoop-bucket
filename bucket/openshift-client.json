@@ -6,8 +6,6 @@
   "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.6.16/openshift-client-windows-4.6.16.zip",
   "hash": "d7fdda9d52961addaa87aa3e98b3bd1927ad80dd6d9742f07b7edba8c3aa9b58",
   "bin": [
-    "oc.exe",
-    "kubectl.exe"
+    "oc.exe"
   ]
 }
-
