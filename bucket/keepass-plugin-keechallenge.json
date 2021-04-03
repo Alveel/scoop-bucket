@@ -1,0 +1,21 @@
+{
+    "version": "1.7.1",
+    "description": "A plugin for KeePass2 to add Yubikey challenge-response capability.",
+    "homepage": "https://github.com/whinis/keechallenge",
+    "license": "GPL-3.0-only",
+    "depends": "extras/keepass",
+    "url": "https://github.com/whinis/keechallenge/releases/download/1.7.1/KeeChallenge.plgx",
+    "hash": "CD437AA0B4EEC1D38386067D06C3715F0B6D2B037040ECA9A31653651047AD4A",
+    "installer": {
+        "script": "Copy-Item \"$dir\\KeeChallenge.plgx\" \"$(appdir keepass $global)\\current\\Plugins\""
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeeChallenge.plgx\""
+    },
+    "checkver": {
+        "github": "https://github.com/whinis/keechallenge"
+    },
+    "autoupdate": {
+        "url": "https://github.com/whinis/keechallenge/releases/download/$version/KeeChallenge.plgx"
+    }
+}
