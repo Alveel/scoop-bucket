@@ -1,10 +1,10 @@
 {
   "homepage": "https://www.openshift.com",
   "description": "OpenShift command-line client",
-  "version": "4.7.6",
+  "version": "4.7.8",
   "license": "Apache-2.0",
-  "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.7.6/openshift-client-windows-4.7.6.zip",
-  "hash": "9485431ae0cef3bc11fb5513d7897ffdafbb6d0619a37ddcce54fb3c2ad3c0fd",
+  "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.7.8/openshift-client-windows-4.7.8.zip",
+  "hash": "73ed95ae672adbef5cb42de19e49d3006a009b6a7cf4d27445ebf0808790c371",
   "bin": [
     "oc.exe"
   ]
