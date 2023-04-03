@@ -1,13 +1,12 @@
 {
   "homepage": "https://github.com/openshift/source-to-image",
   "description": "A tool for building artifacts from source and injecting into container images",
-  "version": "v1.3.1",
+  "version": "v1.3.5",
   "license": "Apache-2.0",
-  "url": "https://github.com/openshift/source-to-image/releases/download/v1.3.1/source-to-image-v1.3.1-a5a77147-windows-amd64.zip",
-  "hash": "DE415D1D36002810D662477ECDE3436EC9B134307F97D6408096661E07FBA65E",
+  "url": "https://github.com/openshift/source-to-image/releases/download/v1.3.5/source-to-image-v1.3.5-c5a05362-windows-amd64.zip",
+  "hash": "bc9db258dee729b3db5be1b08c7df3e2127d80961418f2ef38a6b4b534728f68",
   "bin": [
     "s2i.exe",
-    "sti.exe"
   ],
   "suggests": {
     "OpenShift CLI": [ "openshift-client" ],
